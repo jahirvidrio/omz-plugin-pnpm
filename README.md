@@ -47,6 +47,12 @@ zstyle ':omz:plugins:pnpm' global-path no
 
 ## Aliases
 
+By default, this plugin loads a wide range of aliases. If you prefer to disable them, add the following line to your `.zshrc`:
+
+```zsh
+zstyle ':omz:plugins:pnpm' aliases no
+```
+
 | Alias | Command                              | Description                                                                             |
 | ----- | ------------------------------------ | --------------------------------------------------------------------------------------- |
 | p     | `pnpm`                               | The pnpm command                                                                        |
