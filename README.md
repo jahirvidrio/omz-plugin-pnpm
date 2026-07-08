@@ -89,6 +89,16 @@ zstyle ':omz:plugins:pnpm' aliases no
 | pab   | `pnpm approve-builds`                | Approve dependencies for running scripts during installation                            |
 | pf    | `pnpm -r --filter`                   | Use filter in monorepo root directory                                                   |
 
+## Completion
+
+This plugin automatically initializes and sources native `pnpm` shell completions for Zsh. 
+
+To disable this feature and handle completions manually, add the following line to your `.zshrc`:
+
+```zsh
+zstyle ':omz:plugins:pnpm' completion no
+```
+
 ## CHANGELOG
 
 ### 2025-02-15

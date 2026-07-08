@@ -59,3 +59,7 @@ if zstyle -T ':omz:plugins:pnpm' aliases; then
   # Monorepo
   alias pf='pnpm -r --filter'
 fi
+
+if zstyle -T ':omz:plugins:pnpm' completion; then
+  source <(pnpm completion zsh)
+fi
